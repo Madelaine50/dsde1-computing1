@@ -4,6 +4,6 @@ while a < 10:
     print (a)
 
 b = 10
-while b < 0
+while b < 0:
     b = b - 1
     print = (b)
