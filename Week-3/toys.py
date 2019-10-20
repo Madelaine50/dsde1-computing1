@@ -4,7 +4,9 @@ toys.py
 Simple toy functions to get comfortable working 
 with functions.
 '''
-
+print = ('type in number')
+number = input()
+print = number + 1
 
 # write a function that adds 1
 # to the input and prints the result
