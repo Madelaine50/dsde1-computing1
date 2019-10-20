@@ -6,7 +6,7 @@ with functions.
 '''
 print = ('type in number')
 number = input()
-print = number + 1
+print = int(number) + 1
 
 # write a function that adds 1
 # to the input and prints the result
