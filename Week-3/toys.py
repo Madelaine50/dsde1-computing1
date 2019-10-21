@@ -30,7 +30,7 @@ def sum(a, b):
 # sum() and then increments the sum
 # using inc_return
 def sum_inc(a, b):
-    sum(a+b)
+    sum(a,b)
     return  (inc_return(sum(a+b)))
 
 
@@ -55,5 +55,5 @@ def string_repeat(phrase, repeat):
     # hint: you can add strings together 
     # in order to concatenate them
     return phrase*int(repeat)
-    
+
 
