@@ -5,16 +5,14 @@ Simple toy functions to get comfortable working
 with functions.
 '''
 
-number = input('enter a number  ')
-print (int(number) + 1)
+
 
 # write a function that adds 1
 # to the input and prints the result
 def inc(a):
-    print(a)
-
-
-# write a function that adds 1
+    print(inc(a) + a)    
+    
+    # write a function that adds 1
 # to the input and returns the result
 def inc_return(a):
     return # hint this is incomplete
