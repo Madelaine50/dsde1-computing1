@@ -56,8 +56,8 @@ def string_repeat(phrase, repeat):
     string = phrase
     for i in range (repeat-1):
         str+=phrase
-    return string   
-         print(i)  
+    
+    return string 
 
 
 
