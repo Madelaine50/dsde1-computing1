@@ -1,11 +1,18 @@
-def Length():
+def Length(L):
     print('insert length')
     L = input()
 
-def Gravity():
+def Gravity(g):
     print('insert gravity' )
     g = input()
 
-def Period():
+def Period(T):
     import math
-     print((2*math.pi)*(math.sqrt(L/g)))
+T = (2*math.pi)*(math.sqrt(L/g))
+    
+try:
+    print(x)
+except NameError:
+    print('Variable is not defined')
+except ValueError:
+    print('Equation cannot be solved')
