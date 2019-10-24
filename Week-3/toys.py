@@ -30,7 +30,6 @@ def sum(a, b):
 # sum() and then increments the sum
 # using inc_return
 def sum_inc(a, b):
-    sum(a,b)
     return  (inc_return(sum(a+b)))
 
 

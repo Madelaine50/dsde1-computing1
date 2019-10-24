@@ -45,7 +45,7 @@ def palindrome_word(word):
 # like fullstops, commas, etc. Also do not consider whether the letter is
 # capital or not. 
 def palindrome_sentence(sentence):
-    sentence.lover()
+    sentence.lower()
     sentence.translate(None, string.punctuation)
     sentence.replace(" ", "")
     if sentence == sentence[::-1]
