@@ -53,6 +53,11 @@ def is_even(a):
 def string_repeat(phrase, repeat):
     # hint: you can add strings together 
     # in order to concatenate them
-    return phrase*int(repeat)
+    string = phrase
+    for i in range (repeat-1):
+        str +=phrase
+    return string   
+
+
 
 
