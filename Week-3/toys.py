@@ -55,8 +55,9 @@ def string_repeat(phrase, repeat):
     # in order to concatenate them
     string = phrase
     for i in range (repeat-1):
-        str +=phrase
+        str+=phrase
     return string   
+         print(i)  
 
 
 
