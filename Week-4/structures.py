@@ -9,7 +9,7 @@ Simple functions performing operations on basic Python data structures.
 # write a function that returns a list containig the first and the last element
 # of "the_list". 
 def first_and_last(the_list):
-    return [0:-1]
+    return [0 :-1]
 
 
 # write a function that returns part of "the_list" between indices given by the
@@ -94,21 +94,23 @@ def concatenate_sentences(sentenece1, sentence2):
 # write a function that checks whether there is a record with given key in the
 # dictionary. Return True or False.
 def index_exists(dictionary, key):
-    return
+    if key in dictionary:
+        return True
+    else:
+        return False 
 
 # write a function which checks whether given value is stored in the
 # dictionary. Return True or False.
 def value_exists(dictionary, value):
-    return
+    if value in dictionary:
+        return True
+    else:
+        return False    
+    
 
 # write a function that returns a new dictionary which contains all the values
 # from dictionary1 and dictionary2.
 def merge_dictionaries(dictionary1, dictionary2):
-    return
+    return (dictionary1.update(dictionary2))
 
 
-if __name__ = '_main_':
-    main()
-
-def main()
- 
