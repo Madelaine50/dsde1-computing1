@@ -1,13 +1,13 @@
-def Length():
+def Length(L):
     print('insert length')
     
 
-def Gravity():
+def Gravity(g):
     print('insert gravity' )
     
 def Period():
     import math
-    Print(2*math.pi)*(math.sqrt(Length(input())/Gravity(input())))
+    Print(2*math.pi)*(math.sqrt(L/g))
 
 Length(input())
 Gravity(input())
