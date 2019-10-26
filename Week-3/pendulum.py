@@ -1,15 +1,18 @@
-def Length(L):
+def Length():
     print('insert length')
-    L = input()
-
-def Gravity(g):
-    print('insert gravity' )
-    g = input()
-
-def Period(T):
-    import math
-T = (2*math.pi)*(math.sqrt(L/g))
     
+
+def Gravity():
+    print('insert gravity' )
+    
+def Period():
+    import math
+    Print(2*math.pi)*(math.sqrt(Length(input())/Gravity(input())))
+
+Length(input())
+Gravity(input())
+Period()  
+
 try:
     print(x)
 except NameError:
