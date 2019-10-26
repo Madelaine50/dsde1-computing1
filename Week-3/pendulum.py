@@ -1,21 +1,25 @@
 def Length(L):
-    print('insert length')
+    try:
+        print('Thank you')
+    except NameError:
+        print('Variable is not defined')
+    except ValueError:
+        print('Equation cannot be solved')
     
 
 def Gravity(g):
-    print('insert gravity' )
+    try:
+        print('Thank you')
+    except NameError:
+        print('Variable is not defined')
+    except ValueError:
+        print('Equation cannot be solved')
     
 def Period():
     import math
-    Print(2*math.pi)*(math.sqrt(L/g))
+    Print((2*math.pi)*(math.sqrt(L/g)))
 
 Length(input())
 Gravity(input())
 Period()  
 
-try:
-    print(x)
-except NameError:
-    print('Variable is not defined')
-except ValueError:
-    print('Equation cannot be solved')
