@@ -17,9 +17,9 @@ def Gravity(g):
     
 def Period():
     import math
-    Print((2*math.pi)*(math.sqrt(L/g)))
+    print((2*math.pi)*(math.sqrt(x/y))
 
-Length(input())
-Gravity(input())
+Length('input()')
+Gravity('input()')
 Period()  
 
