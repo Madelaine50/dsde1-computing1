@@ -19,7 +19,7 @@ def Period():
     import math
     print((2*math.pi)*(math.sqrt(x/y))
 
-Length('input()')
-Gravity('input()')
+Length(input())
+Gravity(input())
 Period()  
 
