@@ -67,20 +67,19 @@ def concatenate_sentences(sentenece1, sentence2):
         return False
     elif: '.', '!', '?' not in sentenece1:
         return False
-     else:
-         return sentenece1
+    else:
+        return sentenece1
 
     if sentence2 != sentence2[0].isupper():
         return False
     elif: '.', '!', '?' not in sentence2:
         return False
-     else:
-         return sentence2
+    else:
+        return sentence2
+ 
+    print(sentenece1 + ' ' + sentence2)
     
-    s1 = sentenece1.strip()
-    s2 = sentence2.strip()
-    
-     return s1 + ' ' + s2
+
          
     
    
