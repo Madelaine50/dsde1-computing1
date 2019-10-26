@@ -62,7 +62,32 @@ def palindrome_sentence(sentence):
 # or at the end and the must be exactly one space after the end of the first
 # sentence. 
 def concatenate_sentences(sentenece1, sentence2):
-    return
+    
+    if sentenece1 != sentenece1[0].isupper():
+        return False
+    elif: '.', '!', '?' not in sentenece1:
+        return False
+     else:
+         return sentenece1
+
+    if sentence2 != sentence2[0].isupper():
+        return False
+    elif: '.', '!', '?' not in sentence2:
+        return False
+     else:
+         return sentence2
+    
+    s1 = sentenece1.strip()
+    s2 = sentence2.strip()
+    
+     return s1 + ' ' + s2
+         
+    
+   
+    
+
+    
+        
 
 
 # Dictionaries
