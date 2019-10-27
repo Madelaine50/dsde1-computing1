@@ -102,15 +102,7 @@ def concatenate_sentences(sentenece1, sentence2):
         return 
     second = sentence2.replace(" ", "")
     concat = sentence + ' ' + second
-    
-
-     
-    
-   
-    
-
-    
-        
+       
 
 
 # Dictionaries
