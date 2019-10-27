@@ -10,19 +10,31 @@ with functions.
 # write a function that adds 1
 # to the input and prints the result
 def inc(a):
-    print(inc(a) + 1)    
+
+    # add one to the input
+    a = a + 1
+
+    # display the new value of a
+    print(a) 
     
+
     # write a function that adds 1
 # to the input and returns the result
 def inc_return(a):
-    return (a + 1) # hint this is incomplete
+
+    a = a + 1
+
+    return (a) # hint this is incomplete
 
 
 # write a function that adds
 # the two input numbers together
 # and returns the sum
 def sum(a, b):
-    return (a+b)
+    # This variable stores the sum of the two inputs
+    result = a + b
+
+    return (result)
 
 
 # write a function that takes two
@@ -30,7 +42,9 @@ def sum(a, b):
 # sum() and then increments the sum
 # using inc_return
 def sum_inc(a, b):
-    return  (inc_return(sum(a,b)))
+    result = sum(a, b)
+    inc_return(result)
+
 
 
 # write a function that returns a 
@@ -43,8 +57,7 @@ def is_even(a):
         return False
 
 
-
-# create for loop that takes a string
+# create a for loop that takes a string
 # and an integer and returns a new string 
 # that is the string repeated equal to 
 # integer
@@ -54,11 +67,8 @@ def string_repeat(phrase, repeat):
     # hint: you can add strings together 
     # in order to concatenate them
     string = phrase
-    for i in range (repeat-1):
-        str+=phrase
-    
+
+    for i in range (repeat - 1):
+        string = string + phrase
+
     return string 
-
-
-
-
