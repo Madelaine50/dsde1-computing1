@@ -4,7 +4,22 @@ keywords.py
 Create functions that use keyword arguments
 with default values.
 '''
+def welcome_message(a):
+    if a == '':
+        return 'Hello world'
+    else a == 'user_name' :
+        return 'Hello, <user_name>, and welcome'
+    else a == 'place':
+        return 'Hello and welcome to <place>'
+    else a == 'user_name' and 'place'
+        return 'Hello, <user_name>, and welcome to <place>'
 
+
+    
+
+
+
+welcome_message()
 # Create a function called welcome_message():
 # if no input argument is provided
 # it returns the string 'Hello and welcome'
