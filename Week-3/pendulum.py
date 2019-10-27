@@ -10,6 +10,12 @@ def Period(length, gravity):
         print("Invalid input(s)")
 
     except NameError:
+        print("Invalid input(s)")
+
+    except AttributeError:
+        print("Invalid input(s)")
+
+    except ValueError:
         print("Invalid input(s)")   
 
     print(period)

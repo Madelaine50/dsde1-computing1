@@ -1,4 +1,3 @@
-ls
 '''
 test_toys.py
 

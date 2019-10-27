@@ -43,8 +43,9 @@ def sum(a, b):
 # using inc_return
 def sum_inc(a, b):
     result = sum(a, b)
-    inc_return(result)
 
+    result = inc_return(result)
+    return result
 
 
 # write a function that returns a 
